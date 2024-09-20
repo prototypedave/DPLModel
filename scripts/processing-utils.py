@@ -46,3 +46,4 @@ def normalize(data, min_value=None, max_value=None):
         min_value = np.min(data)
     if max_value is None:
         max_value = np.max(data
+    return (data - min_value) / (max_value - min_value)
