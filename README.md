@@ -27,3 +27,9 @@ To set up the project locally, follow the steps below:
    ```bash
    git clone https://github.com/prototypedave/DPLModel.git
    cd DPLModel
+   ```
+2. **Create and activate a virtual environment**:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # For Linux/Mac
+   venv\Scripts\activate  # For Windows
